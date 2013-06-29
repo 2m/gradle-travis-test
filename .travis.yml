@@ -5,7 +5,7 @@ script:
   - gradle build
 
 after_success:
-  - java -cp build\classes\main\ ConsoleMain
+  - java -cp "build/classes/main/" ConsoleMain
 
 after_failure:
-  - java -cp build\classes\main\ ConsoleMain
+  - java -cp "build/classes/main/" ConsoleMain
