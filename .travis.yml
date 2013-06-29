@@ -6,3 +6,6 @@ script:
 
 after_success:
   - java -cp build\classes\main\ ConsoleMain
+
+after_failure:
+  - java -cp build\classes\main\ ConsoleMain
